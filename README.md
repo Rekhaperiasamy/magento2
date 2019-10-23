@@ -13,7 +13,7 @@ In order to install it run the below command on the root directory:
         "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/javilumbrales/magento2-first-module"
+            "url": "https://github.com/Rekhaperiasamy/magento2.git"
         }],
 
 
@@ -21,11 +21,11 @@ In order to install it run the below command on the root directory:
 
 - Add the module to composer:
 
-        composer require lumbrales-software/magento2-first-module
+        composer require rekha-software/magento2-module
 
 - Add the new entry in `app/etc/config.php`, under the 'modules' section:
 
-        'LumbralesSoftware_HelloWorld' => 1,
+        'Adobe_HelloWorld' => 1,
 
 - Clear cache
 
@@ -36,7 +36,6 @@ In order to install it run the below command on the root directory:
 
 Feel free to contribute, and contact me for any issues.
 
-You can also drop us a comment at www.thedeveloperworldisyours.com/php/create-magento-2-composer-module/
 
 # Version
 
