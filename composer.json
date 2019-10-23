@@ -1,0 +1,22 @@
+{
+    "name": "rekha-software/magento2-module",
+    "description": "Hello world module using composer!",
+    "require": {
+    },
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Adobe/HelloWorld"
+            ]
+        ]
+    },
+    "authors": [
+        {
+            "name": "Rekha",
+            "role": "Developer"
+        }
+    ]
+}
